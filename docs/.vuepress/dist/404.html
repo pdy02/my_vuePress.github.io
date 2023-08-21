@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.66">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/images/hero.png"><title>DY</title><meta name="description" content="这是我的第一个 VuePress 站点">
+    <link rel="preload" href="/assets/style-8a38cc2d.css" as="style"><link rel="stylesheet" href="/assets/style-8a38cc2d.css">
+    <link rel="modulepreload" href="/assets/app-fd419a65.js"><link rel="modulepreload" href="/assets/404.html-0cc12b08.js"><link rel="modulepreload" href="/assets/404.html-f9875e7b.js"><link rel="prefetch" href="/assets/CssView.html-9a0f17e3.js" as="script"><link rel="prefetch" href="/assets/HtmlView.html-e352ac3b.js" as="script"><link rel="prefetch" href="/assets/JsView.html-30b6bb21.js" as="script"><link rel="prefetch" href="/assets/index.html-d069cb30.js" as="script"><link rel="prefetch" href="/assets/index.html-e42aecfc.js" as="script"><link rel="prefetch" href="/assets/TEST.html-082b7744.js" as="script"><link rel="prefetch" href="/assets/index.html-9bf1d3f9.js" as="script"><link rel="prefetch" href="/assets/jsIteration.html-a85684a0.js" as="script"><link rel="prefetch" href="/assets/CssView.html-2939dd41.js" as="script"><link rel="prefetch" href="/assets/HtmlView.html-ed4d0219.js" as="script"><link rel="prefetch" href="/assets/JsView.html-951d7bbb.js" as="script"><link rel="prefetch" href="/assets/index.html-c61e62c9.js" as="script"><link rel="prefetch" href="/assets/index.html-57bc4c4b.js" as="script"><link rel="prefetch" href="/assets/TEST.html-bbf45cab.js" as="script"><link rel="prefetch" href="/assets/index.html-2f0cbf61.js" as="script"><link rel="prefetch" href="/assets/jsIteration.html-d4647da3.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>There&#39;s nothing here.</blockquote><a href="/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/assets/app-fd419a65.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+import{_ as t,o as s,c as a,a as e,b as n}from"./app-fd419a65.js";const o={},c=e("h1",{id:"js语言语法介绍",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#js语言语法介绍","aria-hidden":"true"},"#"),n(" js语言语法介绍")],-1),r=e("p",null,"迭代 = iteration",-1),_=[c,r];function d(i,l){return s(),a("div",null,_)}const f=t(o,[["render",d],["__file","index.html.vue"]]);export{f as default};

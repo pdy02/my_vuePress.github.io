@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-57777146","path":"/jsList/syntax/","title":"js语言语法介绍","lang":"zh-CN","frontmatter":{},"headers":[],"git":{},"filePathRelative":"jsList/syntax/index.md"}');export{t as data};
